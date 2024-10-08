@@ -140,17 +140,17 @@ header a p{
     background-color: #1b5b34c4;
     padding: 20px, 0, 20px, 0;
 }
-.ingresso li{
-    font-size: 30px;
-    list-style:inside;
-    font-weight: bold;
-}
 .ingresso{
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #315d2bd6;
-    padding: 10px;
+    padding: 20px;
+}
+.ingresso li{
+    font-size: 30px;
+    list-style:inside;
+    font-weight: bold;
 }
 .ingresso li a{
     color: rgba(0, 12, 178, 0.777);
