@@ -139,6 +139,7 @@ header a p{
     flex-direction: column;
     background-color: #1b5b34c4;
     padding: 20px, 0, 20px, 0;
+    text-align: center;
 }
 .ingresso{
     display: flex;
