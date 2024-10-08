@@ -6,17 +6,6 @@
         transform: scale(1.05);
     }
 }
-@keyframes palavras{
-    0%,34%{
-        content: "esperando por você!";
-    }
-    35%,65%{
-        content: "na reta final!";
-    }
-    66%, 100%{
-        content: "a caminho de um novo começo!";
-    }
-}
 .qwitcher-grypen-regular {
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 400;
