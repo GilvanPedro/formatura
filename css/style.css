@@ -152,7 +152,7 @@ header a p{
     font-size: 30px;
     list-style:inside;
     font-weight: bold;
-    padding-left: 10px;
+    padding: 5px;
 }
 .ingresso li a{
     color: rgba(0, 12, 178, 0.777);
