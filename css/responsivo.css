@@ -1,0 +1,35 @@
+@media (max-width: 500px ){
+    main img{
+        width: 100%;
+    }
+    .infos{
+        width: 300px;
+    }
+    .ftturma{
+        width: 50%;
+    }
+    .ingresso li{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #texto{
+    font-size: 50px;
+    }
+    #divi{
+        margin: 0px;
+    }
+    .botao{
+        font-size: 18px;
+        padding: 20px;
+        width: 100px;
+    }
+    .container{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

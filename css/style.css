@@ -1,0 +1,193 @@
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+@keyframes palavras{
+    0%,34%{
+        content: "esperando por você!";
+    }
+    35%,65%{
+        content: "na reta final!";
+    }
+    66%, 100%{
+        content: "a caminho de um novo começo!";
+    }
+}
+.qwitcher-grypen-regular {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .qwitcher-grypen-bold {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+.ftturma{
+    width: 500px;
+    display: flex;
+    margin: auto;
+}
+.container{
+    padding: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: rgb(81, 114, 84);
+}
+.texto{
+    height: 100vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+body{
+    overflow-x: hidden;
+    margin: 0px;
+    background-color: white;
+    max-width: 100%;
+}
+header{
+    background-color: rgb(219, 215, 224);
+}
+main{
+    margin: 0 0px 0 0px;
+}
+main img{
+    width: 700px;
+}
+
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+a{
+     text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-decoration: none;
+}
+.infos{
+    display: flex;
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    padding: 30px;
+}
+#texto{
+    font-weight: bold;
+    font-family:"Qwitcher Grypen";
+    font-size: 100px;
+    text-align: center;
+}
+header a p{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(128, 150, 128);
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.botao{
+    font-size: 36px;
+    padding: 10px, 30px, 10px, 30px;
+    color: white;
+    background-color: rgb(128, 150, 128);
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.botao:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.quemsomos{
+    background-color: rgb(249, 255, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quemsomos img{
+    width: 70%;
+}
+.quemsomos p{
+    margin: 10px 10% 10px 10%;
+}
+.local{
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+.onde{
+    text-align: center;
+}
+#esp{
+    display: flex;
+    flex-direction: column;
+}
+.separ{
+    background-color: rgb(129, 158, 129);
+}
+.roupa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1b5b34c4;
+    padding: 20px, 0, 20px, 0;
+}
+.ingresso li{
+    font-size: 30px;
+    list-style:inside;
+    font-weight: bold;
+}
+.ingresso{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #315d2bd6;
+    padding: 10px;
+}
+.ingresso li a{
+    color: rgba(0, 12, 178, 0.777);
+}
+.ingresso p{
+    list-style: none;
+    margin: 10px;
+}
+.botspa{
+    margin: 10px;
+}
+.alinhamento{
+    margin: 0;
+}
+.local .onde{
+    margin: 10px;
+}
+.convi p{
+    font-size: 40px;
+    text-align: center;
+    font-family:"Qwitcher Grypen";
+    color: black;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.container, .quemsomos, .banner, #esp, .convi, .margem, .infos, .roupa, .ingresso .botao{
+    visibility: hidden;
+}
