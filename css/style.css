@@ -145,12 +145,13 @@ header a p{
     align-items: center;
     flex-direction: column;
     background-color: #315d2bd6;
-    padding: 20px;
+    padding: 10px;
 }
 .ingresso li{
     font-size: 30px;
     list-style:inside;
     font-weight: bold;
+    padding-left: 10px;
 }
 .ingresso li a{
     color: rgba(0, 12, 178, 0.777);
