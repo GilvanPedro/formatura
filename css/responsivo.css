@@ -17,6 +17,13 @@
         font-size: 15px;
         padding-bottom: 10px;
     }
+    .botao{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
     p{
         font-size: 15px;
     }
